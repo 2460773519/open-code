@@ -1,0 +1,11 @@
+.\objects\osal_phyrf.o: source\OSAL_PhyRf.c
+.\objects\osal_phyrf.o: ..\..\..\components\inc\types.h
+.\objects\osal_phyrf.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\osal_phyrf.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\osal_phyrf.o: ..\..\..\components\osal\include\OSAL.h
+.\objects\osal_phyrf.o: ..\..\..\components\osal\include\comdef.h
+.\objects\osal_phyrf.o: ..\..\..\components\osal\include\OSAL_Memory.h
+.\objects\osal_phyrf.o: ..\..\..\components\osal\include\OSAL_Timers.h
+.\objects\osal_phyrf.o: ..\..\..\components\osal\include\OSAL_Tasks.h
+.\objects\osal_phyrf.o: source\phy_Rf.h
+.\objects\osal_phyrf.o: source\smart_rf_app.h

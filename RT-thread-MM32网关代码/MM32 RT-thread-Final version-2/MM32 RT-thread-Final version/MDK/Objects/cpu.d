@@ -1,0 +1,17 @@
+.\objects\cpu.o: ..\Libraries\rtthread_libraries\src\cpu.c
+.\objects\cpu.o: ..\Libraries\rtthread_libraries\include\rthw.h
+.\objects\cpu.o: ..\Libraries\rtthread_libraries\include\rtthread.h
+.\objects\cpu.o: ..\Libraries\rtthread_libraries\bsp\rtconfig.h
+.\objects\cpu.o: ..\Libraries\rtthread_libraries\include\rtdebug.h
+.\objects\cpu.o: ..\Libraries\rtthread_libraries\include\rtdef.h
+.\objects\cpu.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\cpu.o: ..\Libraries\rtthread_libraries\include\rtlibc.h
+.\objects\cpu.o: ..\Libraries\rtthread_libraries\include\libc/libc_stat.h
+.\objects\cpu.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\cpu.o: D:\keil5\ARM\ARMCC\Bin\..\include\time.h
+.\objects\cpu.o: ..\Libraries\rtthread_libraries\include\libc/libc_fcntl.h
+.\objects\cpu.o: ..\Libraries\rtthread_libraries\include\libc/libc_dirent.h
+.\objects\cpu.o: ..\Libraries\rtthread_libraries\include\rtservice.h
+.\objects\cpu.o: ..\Libraries\rtthread_libraries\include\rtm.h
+.\objects\cpu.o: ..\Libraries\rtthread_libraries\include\rtthread.h
+.\objects\cpu.o: ..\Libraries\rtthread_libraries\components\finsh\finsh_api.h

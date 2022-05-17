@@ -1,0 +1,31 @@
+
+
+<view class="text-center">
+    <view class="my_time_data">
+        <text space='emsp'>实时数据--------  \n </text>         
+        <text space='emsp'>MAC编号 - {{now_mac}}\n</text>
+        <text space='emsp'>当前体温 - {{now_tmp}}\n</text>
+        <text space='emsp'>当前步数 - {{now_walk}}\n</text>
+        <text space='emsp'>剩余电量 - {{now_vcc}}\n</text>
+    </view>
+
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      点击选择时间：{{array[index]}}
+    </view>
+     </picker>
+
+	<view class="chart_box">
+		<view>{{rtHisData}}</view>
+		<ec-canvas id="mychart-dom-line_1" canvas-id="mychart-line_1" ec="{{ ec_1 }}"></ec-canvas>
+	</view>
+
+    <!-- <view>在此处显示数据曲线图:</view> -->
+	<view class="chart_box">
+		<view>{{rtHisData_2}}</view>
+		<ec-canvas id="mychart-dom-line_2" canvas-id="mychart-line_2" ec="{{ ec_2 }}"></ec-canvas>
+	</view>
+
+    <text space='emsp'>\n</text>
+    <text space='emsp'>\n</text>
+</view>

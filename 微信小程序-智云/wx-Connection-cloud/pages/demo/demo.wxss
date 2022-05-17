@@ -1,0 +1,31 @@
+/**index.wxss**/
+.text-center {
+    text-align: center;
+    line-height: 80rpx;
+  }
+  
+  .btn {
+    border: 1px solid #333;
+    margin: 20rpx 10rpx;
+    padding: 6px;
+    width: 40% !important;
+  
+  }
+  .chart_box{
+    width: 750rpx;
+    height: 750rpx;
+  }
+  ec-canvas {
+    width: 100%;
+    height: 90%;
+  }
+
+
+  .my_time_data{width:100%;height: auto;border: 3px solid #bbb;}
+
+
+.picker{
+    padding: 13px;
+    background-color: #FFFFFF;
+    
+}

@@ -1,0 +1,34 @@
+<view class="text-center">
+  <view>{{connect_text}}</view>
+	<button class="btn" catchtap="con_inten">连接服务器</button>
+	
+	<view>查询信息:</view>
+	<input value="{{sendmg}}" class="sendmg" bindinput="order" placeholder="请输入"></input>
+	<button class="btn" catchtap="check_btn">开始查询</button>
+	<text>养殖数据:\n</text>
+  <text>网关位置:经度:{{lon}}</text>
+  <text>纬度:{{lat}}</text>
+	<!-- <view>{{info}}</view> -->
+</view>
+
+
+<scroll-view  scroll-y  class="out">  
+    <view  wx:for="{{devices_wx}}" >
+      <view class="row">
+        <view class="pic">
+        <image mode="scaleToFill" src="/image/niu.png" data-hi="{{item}}" bindtap="look_info" ></image>
+        </view>
+        <view  class="text" data-hi="{{item}}" bindtap="look_info" >
+            <view class="time">MAC - {{item.mac}}</view>
+            <view class="time">温度 - {{item.tmp}}℃</view>
+            <view class="time">步数 - {{item.walk}}步</view>
+            <view class="time">电量 - {{item.vcc}}mv</view>
+        </view>
+    </view>
+  </view>
+</scroll-view>
+
+
+
+
+

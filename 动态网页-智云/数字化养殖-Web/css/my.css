@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 页头 */
+.header {
+    width: 100%;
+    background-color: #0c0fe9c4;
+    color: #fff;
+    font-size: 20px;
+}
+
+.header>div {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+/* 页中 */
+.main {
+    width: 100%;
+}
+
+.main>div:nth-child(0) {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 10vh 2vw;
+    font-size:4rem;
+    color: rgb(0, 171, 238);
+}
+
+.my_data{
+    display: flex;
+    /* justify-content: center; */
+    margin: 2vh 1vw;
+    font-size:2rem;
+    color: rgb(0, 171, 238);
+    /* float: left; */
+}
+
+
+/* #chart_box>select{
+    width: 10vw;
+    margin: 2vh 2vw;
+
+} */
+/* 页尾 */
+.footer {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #0c0fe9c4;
+    color: #fff;
+    text-align: center;
+}
+/* 2437.5745
+11804.812 */
+.one,.two{
+
+    width: 50%;
+    
+    height: 30px;
+    
+    /* border:1px solid #ccc; */
+    /* margin: 5vh vw; */
+    float: left;
+    
+    box-sizing: border-box;
+    text-align:center;
+    font-weight:bold;
+    
+    }
+
+
+    .input-group-addon {
+        width:100px;
+    }
+    .input-group[class*="col-"] {
+        float:left;
+        padding-left: 10px; 
+        margin-top: 10px;
+    } 
+    .btn-group {
+        padding-left: 10px;
+        margin-top: 10px;
+    } 
+    .controller button {
+        width:60rpx;
+        height:35px;
+        font-weight:700;
+        position: absolute;
+    }
+
+
+
+    
+
+    

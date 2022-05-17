@@ -1,0 +1,13 @@
+<view class="text-center">
+	<view class="img_box">
+		<image src="{{cam_divid}}" class="cimg"></image>
+	</view>
+	<button class="btn" catchtap="Video">{{switch_cam==0?'开启摄像头':'关闭摄像头'}}</button>
+
+
+	<button open-type="contact" bindcontact="handleContact">与管理员联系</button>
+	<!-- <button class="btn" catchtap="UP">向上</button>
+	<button class="btn" catchtap="DOWN">向下</button>
+	<button class="btn" catchtap="LEFT">向左</button>
+	<button class="btn" catchtap="RIGHT">向右</button> -->
+</view>

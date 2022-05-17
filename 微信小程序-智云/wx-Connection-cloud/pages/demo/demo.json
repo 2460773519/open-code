@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "ec-canvas": "../../utils/ec-canvas/ec-canvas"
+  },
+    "navigationBarTitleText": "历史数据",
+    "navigationBarBackgroundColor": "#13991a",
+    "navigationBarTextStyle": "white"
+}

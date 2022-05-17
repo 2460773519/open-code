@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/camera/camera",
+    "pages/no_health/no_health",
+    "pages/demo/demo"
+  ],
+
+  "tabBar": {
+    "color" : "#c30",
+    "selectedcolor" : "#Off",
+    "backgroundcolor": "#ccc",
+    "borderstyle" : "white",
+    "list":[
+        {
+            "pagePath": "pages/index/index",
+            "text":"养殖信息",
+            "iconPath": "/image/home.png",
+            "selectedIconPath": "/image/home-h.png"
+        },
+        {
+            "pagePath": "pages/no_health/no_health",
+            "text":"健康状况",
+            "iconPath": "/image/list.png",
+            "selectedIconPath": "/image/list-h.png"
+        },
+        {
+            "pagePath": "pages/camera/camera",
+            "text":"监控视频",
+            "iconPath": "/image/user.png",
+            "selectedIconPath": "/image/user-h.png"
+           
+        }
+
+    ]
+    },
+
+
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
+

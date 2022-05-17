@@ -1,0 +1,17 @@
+.\objects\slab.o: ..\Libraries\rtthread_libraries\src\slab.c
+.\objects\slab.o: ..\Libraries\rtthread_libraries\include\rthw.h
+.\objects\slab.o: ..\Libraries\rtthread_libraries\include\rtthread.h
+.\objects\slab.o: ..\Libraries\rtthread_libraries\bsp\rtconfig.h
+.\objects\slab.o: ..\Libraries\rtthread_libraries\include\rtdebug.h
+.\objects\slab.o: ..\Libraries\rtthread_libraries\include\rtdef.h
+.\objects\slab.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\slab.o: ..\Libraries\rtthread_libraries\include\rtlibc.h
+.\objects\slab.o: ..\Libraries\rtthread_libraries\include\libc/libc_stat.h
+.\objects\slab.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\slab.o: D:\keil5\ARM\ARMCC\Bin\..\include\time.h
+.\objects\slab.o: ..\Libraries\rtthread_libraries\include\libc/libc_fcntl.h
+.\objects\slab.o: ..\Libraries\rtthread_libraries\include\libc/libc_dirent.h
+.\objects\slab.o: ..\Libraries\rtthread_libraries\include\rtservice.h
+.\objects\slab.o: ..\Libraries\rtthread_libraries\include\rtm.h
+.\objects\slab.o: ..\Libraries\rtthread_libraries\include\rtthread.h
+.\objects\slab.o: ..\Libraries\rtthread_libraries\components\finsh\finsh_api.h

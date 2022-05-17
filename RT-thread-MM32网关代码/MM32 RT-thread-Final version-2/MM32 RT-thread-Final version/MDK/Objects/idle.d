@@ -1,0 +1,17 @@
+.\objects\idle.o: ..\Libraries\rtthread_libraries\src\idle.c
+.\objects\idle.o: ..\Libraries\rtthread_libraries\include\rthw.h
+.\objects\idle.o: ..\Libraries\rtthread_libraries\include\rtthread.h
+.\objects\idle.o: ..\Libraries\rtthread_libraries\bsp\rtconfig.h
+.\objects\idle.o: ..\Libraries\rtthread_libraries\include\rtdebug.h
+.\objects\idle.o: ..\Libraries\rtthread_libraries\include\rtdef.h
+.\objects\idle.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\idle.o: ..\Libraries\rtthread_libraries\include\rtlibc.h
+.\objects\idle.o: ..\Libraries\rtthread_libraries\include\libc/libc_stat.h
+.\objects\idle.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\idle.o: D:\keil5\ARM\ARMCC\Bin\..\include\time.h
+.\objects\idle.o: ..\Libraries\rtthread_libraries\include\libc/libc_fcntl.h
+.\objects\idle.o: ..\Libraries\rtthread_libraries\include\libc/libc_dirent.h
+.\objects\idle.o: ..\Libraries\rtthread_libraries\include\rtservice.h
+.\objects\idle.o: ..\Libraries\rtthread_libraries\include\rtm.h
+.\objects\idle.o: ..\Libraries\rtthread_libraries\include\rtthread.h
+.\objects\idle.o: ..\Libraries\rtthread_libraries\components\finsh\finsh_api.h
